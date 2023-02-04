@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="api.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kwok To Yu</title>
+</head>
+<body onload="updateCounter()">
+    <div class="container">
+        <div class="head-section">
+            <hr>
+            <H1>Welcome to My Resume Page</H1>
+            <hr>
+        </div>
+        <div class="resume-bg">
+            <div class="resume-content">
+                <div class="resume-top">
+                    <div class="name">
+                        <p id="name">Kwok To Yu</p>
+                        <p id="description">Cloud Developer-to-be</p>
+                    </div>
+                    <div class="contact-info">
+                        <p>Ottawa, Ontario</p>
+                        <p id="e-mail">Email Address: asdakak6@gmail.com</p>
+                        <p><a target=”_blank” href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B7qYzPNmGTGqyzf2C%2B3CBZg%3D%3D">Linkedin Profile</a></p>
+                        <p>(613) 255 4400</p>    
+                    </div>
+                </div>
+                <hr class="resume-break">
+                <div class="intro">
+                    <p class="intro-head">About Me<p>
+                    <p id="intro-content">An ambitious cloud developer-to-be making a career transition to the thriving cloud industry. Ability to adapt to a fast-changing working environment with a growth mindset. 
+                        As a computer programming student at Algonquin College, I am actively seeking a 2023 co-op. I have an immense interest in cloud technologies across the AWS and Azure platforms. My personal favorite technologies are infrastructure as code (IaC) and serverless development. Developing solutions to meet people’s needs inspires me to become a better DevOps cloud engineer in the future.</p>
+                </div>
+                <hr class="resume-break">
+                <div class="skills">
+                    <p class="intro-head">Essential Skills</p>
+                </div>
+                <div class="skills-wrapper">
+                    <div id="skill-set-1">
+                        <ul class="skills-list" id="first-skills-set">
+                            <li>GNU/Linux and Bash</li>
+                            <li>Python</li>
+                            <li>HTML/CSS/Javascript</li>
+                            <li>Java</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div id="skill-set-2">
+                        <ul class="skills-list" id="second-skills-set">
+                            <li>CloudFront/ S3</li>
+                            <li>Terraform</li>
+                            <li>Lambda</li>
+                            <li>Dynamo DB</li>
+                            <li>API Gateway</li>
+                        </ul>
+                    </div>
+                    <div id="skill-set-3">
+                        <ul class="skills-list">
+                            <li>CI/CD</li>
+                            <li>IAM</li>
+                            <li>Cognito</li>
+                            <li>KMS</li>
+                            <li>SNS/ SQS</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="resume-break">
+                <div class="cert">
+                    <p class="intro-head" id="cert-intro-head">Certification Achieved</p>
+                    <div class="cert-wrap">
+                        <div class="cert-img">
+                            <img id="badge-img" src="img/badge.png" alt="developer badge">
+                        </div>
+                        <div class="cert-des">
+                            <br>
+                            <p id="cert-des">AWS Certified Developer - Associate (DVA-C01)</p>
+                            <br>
+                            <p>Verification Number: C0Z3VMKC6FREQFC4</p>
+                            <br>
+                            <p>Score: 911/1000</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="resume-break">
+                <div class="edu">
+                    <p class="intro-head" id="edu-head">Education</p>
+                    <div class="edu-wrap">
+                        <div class="edu-logo" ><img id="ac-img" src="img/algon-img.png" alt="The logo of Algonquin College"></div>
+                        <div class="edu-1-des">
+                            <p class="date">Algonquin College School of Adanced Technology  (Aug 2022 - Current)</p>
+                            <p>Diploma of Computer Programming</p>
+                        </div>
+                        <div class="edu-logo"><img id="hku-photo" src="img/HKU-img.jpg" alt="The logo of HKU"></div>
+                        <div class="edu-2-des">
+                            <p class="date">The University of Hong Kong (2017-2022)</p>
+                            <p>Bachelor of Education and Bachelor of Science (BEd & BSc)</p>
+                            <p>Major in Biological Science</p>
+                            <p>Award: Dean's List Honor</p>
+                            <p>cGPA: 3.5/4.3</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr class="resume-break">
+                <div class="exp">
+                    <p class="intro-head" id="exp-head">Experience</p>
+                    <div class="job">
+                        <p class="job-title">VR Adventure Host @VR Adventure Zone (Sep 2022 - Jan 2023)</p>
+                        <p class="company-url">Company Website: <a href="https://www.vradventures.zone/" target="_blank">https://www.vradventures.zone</a></p>
+                        <ul class="job-duty">
+                            <li>troubleshoot VR equipment and internet connectivity</li>
+                            <li>host and maintain VR adventure session for customers</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <p class="job-title">Biotechnologist Internship @Geb Impact Technology (July-August 2021)</p>
+                        <p class="company-url">Company Website: <a href="https://www.gebimpact.com" target="_blank">https://www.gebimpact.com</a></p>
+                        <ul class="job-duty">
+                            <li>participate in the process development of algae culture in bioreactors</li>
+                            <li>operate pilot production, compare and identify growth parameter to scale up the volume of bioreactors for manufacturability</li>
+                            <li>help cultivate the key performance of bioreactors and suggest improvement in design, manufacturability, operation, and quality</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <p class="job-title">Part-time Junior Library Assistance @The University of Hong Kong (2019-2022)</p>
+                        <p class="company-url">Website: <a href="https://lib.hku.hk" target="_blank">https://lib.hku.hk</a></p>
+                        <ul class="job-duty">
+                            <li>troubleshoot electronic device in a library settings</li>
+                            <li>organise book collection using Ex Libris (cloud-technology)</li>
+                            <li>maintain daily operation of a library</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="resume-break">
+                <br>
+                <div class="project">
+                    <p class="intro-head" id="project-head">Projects</p>
+                    <p id="project-title">The Clould Resume Challenge</p>
+                    <ul id="project-info">
+                        <li>GitHub: <a href="https://github.com/yukwokto/Cloud-Resume-Challenge.git" target="_blank">https://github.com/yukwokto/Cloud-Resume-Challenge.git</a></li>
+                    </ul>
+                    <br>
+                    <p id="project-des">
+                        Deploy a static resume website using the AWS cloud technology. The website domain is registered on Route53, and records are set in hosted zone. SSL certificates are provisioned for HTTPS communication. 
+                        My resume website is hosted on S3 and delivered by CloudFront network. A counter of visitor number was set up using API gateway, Lambda function, and DynamoDB.
+                        API called is achieved by javascript, and it triggers lambda function to update the DynamoDB database.
+                        In return, visitor number is fetched from the JSON response of Lambda function. Eventually, terraform is utilised to quickly construct the backend infrastructure of the website. Feel free to visit my github profile.
+                    </p>
+                </div>
+                <hr class="resume-break">
+                <br>
+                <hr class="resume-break">
+                <div class="resume-footer">
+                    <p id="footer-content">Kwok To Yu - <a id="footer-email" href="asdakak6@gmail.com">asdakak6@gmail.com</a> - (613) 255 4400</p>
+                    <p id="visitor-counter" >You are visitor number: <span id="thevisitor"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
