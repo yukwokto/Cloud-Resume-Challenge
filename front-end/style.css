@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2800px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    min-width: 900px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, rgb(16, 16, 16), #ccc);
+}
+
+.head-section{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.head-section h1{
+    padding: 8px 0;
+}
+
+.resume-bg{
+    background-color: #e4e4e4;
+    height: 2600px;
+    border:rgb(16, 16, 16)	1px solid;
+}
+.resume-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.resume-top{
+    display: grid;
+    grid-template-columns: 60% 39%;
+    padding: 15px 0 0 0;
+}
+
+.name{
+    padding: 45px 0;
+    display: inline;
+}
+.name p{
+    padding: 5px 0;
+}
+#name{
+    font-size: 45px;
+}
+#description{
+    font-style: italic;
+    font-size: 25px;
+}
+.contact-info{
+    display: inline;
+    /* float: right; */
+    padding: 40px 0;
+}
+.contact-info p{
+    padding: 5px 0;
+    font-size: 20px;
+}
+#e-mail{
+    font-size: 17px;
+}
+.resume-break{
+    border: 0;
+    height: 0;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.429);
+}
+.intro{
+    margin: 25px 0;
+    padding-bottom: 15px;
+}
+.intro-head{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#intro-content{
+    text-align:justify;
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+.skills{
+    margin-top: 25px;
+}
+.skills-wrapper{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+#first-skills-set li{
+    margin-left: 0px;
+}
+#skill-set-2{
+    padding-left: 65px;
+}
+.skills-list li{
+    list-style-type: none;
+    line-height: 35px;
+}
+#skill-set-3{
+    margin-left: 130px;
+}
+.cert{
+    margin-top: 25px;
+}
+#cert-intro-head{
+    padding: 8px;
+}
+#badge-img{
+    width: 140px;
+}
+.cert-wrap{
+    display: grid;
+    grid-template-columns: 30% 69%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cert-des{
+    padding-top: 7px;
+}
+#cert-des{
+    font-weight: 700;
+    font-size: 18px;
+}
+.edu-wrap{
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: 30% 69%;
+}
+.edu-logo img{
+    width: 100px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+}
+#hku-photo{
+    height: 105px;
+}
+#ac-img{
+    height: 100px;
+}
+.date{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#edu-head{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#exp-head{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.job-title{
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.company-url{
+    font-style: italic;
+    font-size: 18px;
+}
+.job-duty{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 24px;
+}
+
+.job-duty li{
+    list-style-type: "-";
+    padding: 4px 0;
+    font-size: 18px;
+}
+#project-title{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#project-info li{
+    list-style-type: none;
+    padding: 2px 0;
+}
+#project-des{
+    padding-bottom: 50px;
+    text-align: justify;
+}
+.resume-footer{
+    padding-top: 15px;
+}
+#footer-content{
+    text-align: center;
+}
+#footer-email{
+    color:rgb(165, 15, 15);
+}
+#visitor-counter{
+    text-align: center;
+}
