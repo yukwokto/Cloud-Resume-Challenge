@@ -10,13 +10,21 @@ AWS Services
 The major AWS services utilized in this project are:
 
 Amazon S3 for hosting the static website and storing its files
+
 Amazon CloudFront for content delivery and caching
+
 Amazon Route 53 for DNS management and domain registration
+
 AWS IAM for managing access to AWS resources
+
 AWS Lambda for serverless computing
+
 AWS API Gateway for creating RESTful APIs
+
 Amazon DynamoDB for storing data
+
 Infrastructure as Code
+
 In addition to using AWS services, I also experimented with Infrastructure as Code (IaC) using Terraform. The terraform folder contains the code for creating the cloud infrastructure. The Terraform template successfully created the backend components of the website.
 
 Future Improvements
